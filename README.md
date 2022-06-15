@@ -31,7 +31,7 @@ DESCRIPCION
 <br />
 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=UOC-Android&theme=tokyonight) 
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=MrtVazguen&show_icons=true&theme=radical)
 
 ### Extras
 ([Drive link ](https://docs.google.com/document/d/1r5ElcFDWT98yS-NT08viIMSQooUFfycH5JtQUsLnOFA/edit))
