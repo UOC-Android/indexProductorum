@@ -20,6 +20,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
+
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -58,6 +59,9 @@ dependencies {
 
     // Testing Navigation
     androidTestImplementation "androidx.navigation:navigation-testing:$nav_version"
+
+    //Save args
+    implementation "androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version"
 
     // Jetpack Compose Integration
     //implementation "androidx.navigation:navigation-compose:$nav_version"
