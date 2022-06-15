@@ -13,7 +13,7 @@ DESCRIPCION
 
 ### Extenciones de Grandle
 
->Vinculación de vista
+>Vinculación de vista en build.gradle(:app)
 
 ```
  viewBinding {
