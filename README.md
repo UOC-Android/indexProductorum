@@ -20,7 +20,7 @@ DESCRIPCION
         enabled = true
     }
 ```
->Navigation fragments Views
+>Componente Navigation 
 
 ``` 
     def nav_version = "2.4.2"
