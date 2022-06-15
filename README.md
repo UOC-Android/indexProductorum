@@ -19,10 +19,8 @@
 <br />
 
 ### Gradle extencions 
-<br />
-
-'''
+```
  viewBinding {
         enabled = true
     }
-'''
+```
