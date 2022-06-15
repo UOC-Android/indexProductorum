@@ -4,7 +4,7 @@
 ![figure description](https://user-images.githubusercontent.com/33204630/173901578-0cc418dd-eb6d-4a4b-96eb-cfa30a012172.png) 
 <br />
 
-DESCRIPCION: Aplicaciones para hacer la lista de compra desde Android 
+## DESCRIPCION: Aplicaciones para hacer la lista de compra desde Android 
 <br />
 
 
