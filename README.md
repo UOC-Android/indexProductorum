@@ -31,7 +31,12 @@ DESCRIPCION
 <br />
 
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=MrtVazguen&show_icons=true&theme=radical)
+
+
+| Colaboradores           |       GITHUB        | 
+| -------------           |:-------------:| 
+| Vazguen Martirosian     | MrtVazguen          |
+| Andrés García Quina     | Fahrek              |
 
 ### Extras
 ([Drive link ](https://docs.google.com/document/d/1r5ElcFDWT98yS-NT08viIMSQooUFfycH5JtQUsLnOFA/edit))
