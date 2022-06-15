@@ -18,8 +18,8 @@
         enabled = true
     }
 ```
-###  Componentes de navegacion <p><a href="https://support.google.com/chrome/answer/95647?hl=es&amp;ref_topic=3421433%3F" target=" _blank"> link</a></p>
-
+###  Componentes de navegacion  
+<a href="https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419" target="_blank">
 ```
     def nav_version = "2.4.2"
 
