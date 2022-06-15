@@ -42,6 +42,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
 
+
     //NAVIGATION Views
     def nav_version = "2.4.2"
 
@@ -61,4 +62,6 @@ dependencies {
 
     // Jetpack Compose Integration
     //implementation "androidx.navigation:navigation-compose:$nav_version"
+
+    //FIREBASE
 }
