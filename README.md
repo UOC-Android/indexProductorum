@@ -11,9 +11,10 @@ DESCRIPCION
 
 
 
->### Gradle extencions
->>#### Vinculación de vista
->>>
+### Extenciones de Grandle
+
+: Vinculación de vista
+
 ```
 
  viewBinding {
