@@ -68,4 +68,9 @@ dependencies {
     //implementation "androidx.navigation:navigation-compose:$nav_version"
 
     //FIREBASE
+
+
+
+    //bottom menu navigation
+    implementation 'com.google.android.material:material:1.6.1'
 }
