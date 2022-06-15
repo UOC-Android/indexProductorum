@@ -5,7 +5,7 @@
 <br />
 
 DESCRIPCION
-: ## Aplicaciones para hacer la lista de compra desde Android 
+: Aplicaciones para hacer la lista de compra desde Android 
 <br />
 
 
