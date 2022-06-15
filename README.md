@@ -20,7 +20,7 @@ DESCRIPCION
         enabled = true
     }
 ```
->Componente Navigation 
+### Componente Navigation 
 
 ``` 
     def nav_version = "2.4.2"
@@ -49,7 +49,7 @@ DESCRIPCION
 
 
 
-#### Cómo agregar un NavHostFragment a través de XML
+> Cómo agregar un NavHostFragment a través de XML
 ``` 
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
