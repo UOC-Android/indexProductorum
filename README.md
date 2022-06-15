@@ -18,7 +18,7 @@
         enabled = true
     }
 ```
- 
+ <br />
 <a href="www.squarespace.com](https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419" target="_blank">Componentes de navegacion</a> <br />
 ``` 
     def nav_version = "2.4.2"
