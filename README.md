@@ -18,7 +18,7 @@
         enabled = true
     }
 ```
-### Componente Navigation [Componentes de navigacion](https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419).
+### [Componente Navigation](https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419).
 
 ``` 
     def nav_version = "2.4.2"
