@@ -9,6 +9,7 @@
 
 <br /> 
 ### TAREAS
+<br /> 
 - [ ] CREAR UI
 - [ ] CREAR UML
 - [ ] PROGRAMAR
