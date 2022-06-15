@@ -35,8 +35,8 @@ DESCRIPCION
 
 | Colaboradores           |       GITHUB        | 
 | -------------           |:-------------:| 
-| Vazguen Martirosian     | MrtVazguen          |
-| Andrés García Quina     | Fahrek              |
+| Vazguen      | MrtVazguen          |
+| Andrés       | Fahrek              |
 
 ### Extras
 ([Drive link ](https://docs.google.com/document/d/1r5ElcFDWT98yS-NT08viIMSQooUFfycH5JtQUsLnOFA/edit))
