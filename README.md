@@ -11,9 +11,10 @@ DESCRIPCION
 
 
 
-### Gradle extencions 
-```
+### Gradle extencions
 #### Vinculación de vista
+```
+
  viewBinding {
         enabled = true
     }
