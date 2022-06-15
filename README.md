@@ -18,8 +18,7 @@
         enabled = true
     }
 ```
-### [Componente Navigation](https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419).
-
+### <a href="[http://example.com/](https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419)" target="_blank">Componente Navigation</a>
 ``` 
     def nav_version = "2.4.2"
 
