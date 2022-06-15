@@ -13,14 +13,14 @@ DESCRIPCION
 
 ### Extenciones de Grandle
 
-: Vinculación de vista
+Vinculación de vista
 
 ```
-
  viewBinding {
         enabled = true
     }
 ```
+
 
 
 ### TAREAS A HACER 
