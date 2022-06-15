@@ -1,7 +1,4 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/android,gradle,java,kotlin,firebase
-# Edit at https://www.toptal.com/developers/gitignore?templates=android,gradle,java,kotlin,firebase
-
 ### Android ###
 # Gradle files
 .gradle/
