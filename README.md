@@ -33,8 +33,8 @@ DESCRIPCION
 
 
 
-| Colaboradores           |       GITHUB        | 
-| -------------           |:-------------:| 
+| Colaboradores|       GITHUB        |  
+| -------------|:-------------:      | 
 | Vazguen      | MrtVazguen          |
 | Andrés       | Fahrek              |
 
