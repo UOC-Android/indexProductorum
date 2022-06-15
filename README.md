@@ -8,13 +8,15 @@ DESCRIPCION
 : Aplicaciones para hacer la lista de compra desde Android 
 <br />
 
->Extras
->>([Drive link ](https://docs.google.com/document/d/1r5ElcFDWT98yS-NT08viIMSQooUFfycH5JtQUsLnOFA/edit))
-<br />
 
 
 
-
+### Gradle extencions 
+```
+ viewBinding {
+        enabled = true
+    }
+```
 
 
 ### TAREAS A HACER 
@@ -25,3 +27,6 @@ DESCRIPCION
 <br />
 
 
+>Extras
+>>([Drive link ](https://docs.google.com/document/d/1r5ElcFDWT98yS-NT08viIMSQooUFfycH5JtQUsLnOFA/edit))
+<br />
