@@ -7,7 +7,17 @@
 >Extras
 >>([Drive link ](https://docs.google.com/document/d/1r5ElcFDWT98yS-NT08viIMSQooUFfycH5JtQUsLnOFA/edit))
 
-### TAREAS 
+### TAREAS A HACER 
 - [ ] CREAR UI
 - [ ] CREAR UML
 - [ ] PROGRAMAR
+
+
+
+###Gradle extencions
+
+'''
+ viewBinding {
+        enabled = true
+    }
+'''
