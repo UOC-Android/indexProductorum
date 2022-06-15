@@ -33,7 +33,7 @@ DESCRIPCION
 
 
 
-| miembros del equipo|       GITHUB        |  
+| Miembros del equipo|       GITHUB        |  
 | -------------      |:-------------:      | 
 | Vazguen            | MrtVazguen          |
 | Andrés             | Fahrek              |
