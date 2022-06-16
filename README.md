@@ -6,15 +6,16 @@
 <br />
 
 ## DESCRIPCION: 
->Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotos.Permite compartir la lista de compra con otros usuarios de aplicacion. Permite controlar los gastos y agregar promociones de las tiendas
+>Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotos.Permite controlar los gastos y agregar promociones de las tiendas
 
 ### Características
 
 1. Autentificarse
 2. Crear, modificar, eliminar leer la lista de compra
-3. Crear promociones de la  compra
-4. En caso de la lista de compra compartida , valorar y aprobar la compra
-5. Animaciones
+4. Compartir la lista con otros usuarios 
+4. Crear promociones de la  compra
+5. En caso de la lista de compra compartida , valorar y aprobar la compra
+6. Animaciones
 
 
 ### Herramientas utilizadas
