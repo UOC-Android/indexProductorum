@@ -88,7 +88,7 @@
 
 ```
   
-> Cómo agregar un NavHostFragment a través de XML
+> Cómo agregar un NavHostFragment a través de XML de MainActivity
 ``` 
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
