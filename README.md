@@ -9,6 +9,14 @@
 >Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotos.Permite controlar los gastos y agregar promociones de las tiendas
 <br />
 
+### Características
+
+1. Autentificarse
+2. Crear, modificar, eliminar leer la lista de compra
+4. Compartir la lista con otros usuarios y  valorar  la compra
+4. Crear promociones de la  compra
+5. Animaciones
+
 ### TAREAS A HACER 
 - [X] CREAR UI
 - [ ] CREAR UML
@@ -27,13 +35,7 @@
 <br />
 <br />
 
-### Características
 
-1. Autentificarse
-2. Crear, modificar, eliminar leer la lista de compra
-4. Compartir la lista con otros usuarios y  valorar  la compra
-4. Crear promociones de la  compra
-5. Animaciones
 
 
 ### Herramientas utilizadas
