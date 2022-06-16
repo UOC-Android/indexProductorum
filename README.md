@@ -10,7 +10,7 @@
 
 
 
-### Extenciones de Grandle
+## Extenciones de Grandle
 
 >Vinculación de vista en build.gradle(:app)
 
