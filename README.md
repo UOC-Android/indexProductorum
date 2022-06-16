@@ -39,8 +39,7 @@
 ### Herramientas utilizadas
 * SqLite (local)
 * Firestore (remoto)
-  <br /><br />
->>>>>>> 31a625d (updating readme)
+  <br /><br /> 
 
 ## Extenciones de Grandle
 > Instrucciones de configuración:
