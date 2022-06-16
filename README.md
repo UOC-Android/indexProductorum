@@ -24,7 +24,6 @@
 - [ ] TESTEAR
 
 <br />
-<br />
 
 ### Colaboradores
 
