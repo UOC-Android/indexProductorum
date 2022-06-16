@@ -7,10 +7,17 @@
 
 ## DESCRIPCION: Aplicacione para hacer la lista de compra 
 
+### Características
+
+1. Autentificarse
+2. Crear, modificar, eliminar leer la lista de compra
+3. Crear promociones de la  compra
+4. En caso de la lista de compra compartida , valorar y aprobar la compra
+
+
 ### Herramientas utilizadas
- * Base de datos
-    - SqLite (local)
-    - Firestore (remoto)
+* SqLite (local)
+* Firestore (remoto)
 
 
 
