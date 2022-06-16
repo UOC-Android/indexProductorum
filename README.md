@@ -24,9 +24,9 @@
 
 ## Extenciones de Grandle
 
-## Vinculación de vista
+### Vinculación de vista
 
-Instrucciones de configuración
+### Instrucciones de configuración
 1. Vinculación de vista en build.gradle(:app)
 
 ```
