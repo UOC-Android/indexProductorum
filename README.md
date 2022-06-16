@@ -94,9 +94,9 @@
 
 
 ### TAREAS A HACER 
-- [ ] CREAR UI
+- [X] CREAR UI
 - [ ] CREAR UML
-- [ ] PROGRAMAR
+- [ ] CODIFICAR
 - [ ] TESTEAR
 
 <br />
