@@ -4,8 +4,6 @@ UOC-Android/index_productorum<!--#   -->
 ![173901578-0cc418dd-eb6d-4a4b-96eb-cfa30a012172](https://user-images.githubusercontent.com/33204630/174042636-463f62c2-3e7c-458b-a546-7942ab92538e.png)
 <br />
 
-<br />
-
 ## DESCRIPCION:
 >Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotas.Permite controlar los gastos y agregar promociones.
 <br />
