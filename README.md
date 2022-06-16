@@ -24,6 +24,9 @@
 
 ## Extenciones de Grandle
 
+#### Vinculación de vista
+
+Instrucciones de configuración
 >Vinculación de vista en build.gradle(:app)
 
 ```
@@ -31,7 +34,7 @@
         enabled = true
     }
 ```
->> Cómo usar la vinculación de vista en actividades
+> Cómo usar la vinculación de vista en actividades
 ```
   binding = ResultProfileBinding.inflate(getLayoutInflater());
         View view = binding.getRoot();
