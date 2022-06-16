@@ -43,7 +43,7 @@ Instrucciones de configuración
 ```
 
 
-###  Componentes de navegacion [link](https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419)
+###  Componentes de navegacion [:link:](https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419)
 ```
     def nav_version = "2.4.2"
 
