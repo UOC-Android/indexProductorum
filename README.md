@@ -1,20 +1,10 @@
 
 # INDEX PRODUCTORUM
-<br />
- 
-![figure description](https://user-images.githubusercontent.com/33204630/173901578-0cc418dd-eb6d-4a4b-96eb-cfa30a012172.png) 
-<br />
-
-## DESCRIPCIÓN
-=======
-
-# INDEX PRODUCTORUM
 
 ![173901578-0cc418dd-eb6d-4a4b-96eb-cfa30a012172](https://user-images.githubusercontent.com/33204630/174042636-463f62c2-3e7c-458b-a546-7942ab92538e.png)
 <br />
 
 ## DESCRIPCION:
->>>>>>> 31a625d (updating readme)
 >Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotas.Permite controlar los gastos y agregar promociones.
 <br />
 
@@ -25,12 +15,8 @@
 4. Compartir la lista con otros usuarios y  valorar  la compra
 4. Crear promociones de la  compra
 5. Animaciones
-
-<<<<<<< HEAD
-### TAREAS A HACER 
-=======
+ 
 ### TAREAS A HACER
->>>>>>> 31a625d (updating readme)
 - [X] CREAR UI
 - [ ] CREAR UML
 - [ ] CODIFICAR
@@ -58,8 +44,8 @@
 
 ## Extenciones de Grandle
 > Instrucciones de configuración:
-### Vinculación de vista [:link:](https://developer.android.com/topic/libraries/view-binding?hl=es-419)
 
+### Vinculación de vista [:link:](https://developer.android.com/topic/libraries/view-binding?hl=es-419)
 1. Vinculación de vista en build.gradle(:app)
 
 ```
@@ -67,6 +53,7 @@
         enabled = true
     }
 ```
+
 2. Cómo usar la vinculación de vista en actividades
 ```
   binding = ResultProfileBinding.inflate(getLayoutInflater());
@@ -101,9 +88,7 @@
     //implementation "androidx.navigation:navigation-compose:$nav_version"
 
 ```
-
-
-
+  
 > Cómo agregar un NavHostFragment a través de XML
 ``` 
 <?xml version="1.0" encoding="utf-8"?>
@@ -136,10 +121,7 @@
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
-
-
-
->>>>>>> 31a625d (updating readme)
+ 
 
 ### Extras
 ([Drive link ](https://docs.google.com/document/d/1r5ElcFDWT98yS-NT08viIMSQooUFfycH5JtQUsLnOFA/edit))
