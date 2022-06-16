@@ -7,6 +7,9 @@
 
 ## DESCRIPCION: Aplicacione para hacer la lista de compra 
 
+##  (* Componentes de aplicacion)
+    - A
+    - B
 
 
 
