@@ -7,9 +7,10 @@
 
 ## DESCRIPCION: Aplicacione para hacer la lista de compra 
 
- * Componentes de aplicacion
-    - A
-    - B
+### Herramientas utilizadas
+ * Base de datos
+    - SqLite (local)
+    - Firestore (remoto)
 
 
 
