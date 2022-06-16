@@ -12,10 +12,9 @@
 
 1. Autentificarse
 2. Crear, modificar, eliminar leer la lista de compra
-4. Compartir la lista con otros usuarios 
+4. Compartir la lista con otros usuarios y  valorar  la compra
 4. Crear promociones de la  compra
-5. En caso de la lista de compra compartida , valorar y aprobar la compra
-6. Animaciones
+5. Animaciones
 
 
 ### Herramientas utilizadas
