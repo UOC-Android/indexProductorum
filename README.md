@@ -27,14 +27,14 @@
 ### Vinculación de vista
 
 Instrucciones de configuración
->Vinculación de vista en build.gradle(:app)
+1. Vinculación de vista en build.gradle(:app)
 
 ```
  viewBinding {
         enabled = true
     }
 ```
-> Cómo usar la vinculación de vista en actividades
+2. Cómo usar la vinculación de vista en actividades
 ```
   binding = ResultProfileBinding.inflate(getLayoutInflater());
   View view = binding.getRoot();
