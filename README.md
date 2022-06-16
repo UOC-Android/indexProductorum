@@ -21,6 +21,8 @@
 * Firestore (remoto)
 
 
+
+
 ## Extenciones de Grandle
 ### Vinculación de vista [:link:](https://developer.android.com/topic/libraries/view-binding?hl=es-419)
 #### Instrucciones de configuración
