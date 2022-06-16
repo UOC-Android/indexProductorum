@@ -8,6 +8,25 @@
 ## DESCRIPCION: 
 >Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotos.Permite controlar los gastos y agregar promociones de las tiendas
 
+
+### TAREAS A HACER 
+- [X] CREAR UI
+- [ ] CREAR UML
+- [ ] CODIFICAR
+- [ ] TESTEAR
+
+<br />
+<br />
+
+### Colaboradores
+
+| Miembros del equipo|       GITHUB        |  
+| -------------      |:-------------:      | 
+| Vazguen            | MrtVazguen          |
+| Andrés             | Fahrek              |
+<br />
+<br />
+
 ### Características
 
 1. Autentificarse
@@ -104,23 +123,7 @@
 ```
 
 
-### TAREAS A HACER 
-- [X] CREAR UI
-- [ ] CREAR UML
-- [ ] CODIFICAR
-- [ ] TESTEAR
 
-<br />
-<br />
-
-### Colaboradores
-
-| Miembros del equipo|       GITHUB        |  
-| -------------      |:-------------:      | 
-| Vazguen            | MrtVazguen          |
-| Andrés             | Fahrek              |
-<br />
-<br />
 
  
 
