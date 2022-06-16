@@ -6,7 +6,7 @@
 <br />
 
 ## DESCRIPCION: 
->Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotos.Permite controlar los gastos y agregar promociones de las tiendas
+>Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotas.Permite controlar los gastos y agregar promociones.
 <br />
 
 ### Características
