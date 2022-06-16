@@ -13,6 +13,7 @@
 2. Crear, modificar, eliminar leer la lista de compra
 3. Crear promociones de la  compra
 4. En caso de la lista de compra compartida , valorar y aprobar la compra
+5. Animaciones
 
 
 ### Herramientas utilizadas
