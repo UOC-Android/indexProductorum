@@ -1,4 +1,4 @@
-<!--#   -->
+
 # INDEX PRODUCTORUM
 <br />
  
@@ -6,6 +6,16 @@
 <br />
 
 ## DESCRIPCIÓN
+=======
+
+# INDEX PRODUCTORUM
+<br />
+
+![figure description](https://user-images.githubusercontent.com/33204630/173901578-0cc418dd-eb6d-4a4b-96eb-cfa30a012172.png)
+<br />
+
+## DESCRIPCION:
+>>>>>>> 31a625d (updating readme)
 >Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotas.Permite controlar los gastos y agregar promociones.
 <br />
 
@@ -17,7 +27,11 @@
 4. Crear promociones de la  compra
 5. Animaciones
 
+<<<<<<< HEAD
 ### TAREAS A HACER 
+=======
+### TAREAS A HACER
+>>>>>>> 31a625d (updating readme)
 - [X] CREAR UI
 - [ ] CREAR UML
 - [ ] CODIFICAR
@@ -40,7 +54,8 @@
 ### Herramientas utilizadas
 * SqLite (local)
 * Firestore (remoto)
-<br /><br />
+  <br /><br />
+>>>>>>> 31a625d (updating readme)
 
 ## Extenciones de Grandle
 > Instrucciones de configuración:
@@ -125,8 +140,7 @@
 
 
 
-
- 
+>>>>>>> 31a625d (updating readme)
 
 ### Extras
 ([Drive link ](https://docs.google.com/document/d/1r5ElcFDWT98yS-NT08viIMSQooUFfycH5JtQUsLnOFA/edit))
