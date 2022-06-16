@@ -1,8 +1,8 @@
 UOC-Android/index_productorum<!--#   -->
 # INDEX PRODUCTORUM
-<br />
-![173901578-0cc418dd-eb6d-4a4b-96eb-cfa30a012172](https://user-images.githubusercontent.com/33204630/174042636-463f62c2-3e7c-458b-a546-7942ab92538e.png)
 
+![173901578-0cc418dd-eb6d-4a4b-96eb-cfa30a012172](https://user-images.githubusercontent.com/33204630/174042636-463f62c2-3e7c-458b-a546-7942ab92538e.png)
+<br />
 
 <br />
 
