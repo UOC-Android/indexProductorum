@@ -37,8 +37,8 @@ Instrucciones de configuración
 > Cómo usar la vinculación de vista en actividades
 ```
   binding = ResultProfileBinding.inflate(getLayoutInflater());
-        View view = binding.getRoot();
-        setContentView(view);
+  View view = binding.getRoot();
+  setContentView(view);
 
 ```
 
