@@ -84,6 +84,7 @@
 - [ ] CREAR UI
 - [ ] CREAR UML
 - [ ] PROGRAMAR
+- [ ] TESTEAR
 
 <br />
 <br />
