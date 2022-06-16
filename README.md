@@ -1,24 +1,68 @@
-# Index productorum  
-<br />
- 
-![figure description](https://user-images.githubusercontent.com/33204630/173901578-0cc418dd-eb6d-4a4b-96eb-cfa30a012172.png) 
+UOC-Android/index_productorum<!--#   -->
+# INDEX PRODUCTORUM
 <br />
 
-## DESCRIPCION: Aplicacione para hacer la lista de compra 
+![figure description](https://user-images.githubusercontent.com/33204630/173901578-0cc418dd-eb6d-4a4b-96eb-cfa30a012172.png)
+<br />
+
+## DESCRIPCION:
+>Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotas.Permite controlar los gastos y agregar promociones.
+<br />
+
+### Características
+
+1. Autentificarse
+2. Crear, modificar, eliminar leer la lista de compra
+4. Compartir la lista con otros usuarios y  valorar  la compra
+4. Crear promociones de la  compra
+5. Animaciones
+
+### TAREAS A HACER
+- [X] CREAR UI
+- [ ] CREAR UML
+- [ ] CODIFICAR
+- [ ] TESTEAR
+
+<br />
+
+### Colaboradores
+
+| Miembros del equipo|       GITHUB        |  
+| -------------      |:-------------:      | 
+| Vazguen            | MrtVazguen          |
+| Andrés             | Fahrek              |
+<br />
+<br />
 
 
 
 
-### Extenciones de Grandle
+### Herramientas utilizadas
+* SqLite (local)
+* Firestore (remoto)
+  <br /><br />
 
->Vinculación de vista en build.gradle(:app)
+## Extenciones de Grandle
+> Instrucciones de configuración:
+### Vinculación de vista [:link:](https://developer.android.com/topic/libraries/view-binding?hl=es-419)
+
+1. Vinculación de vista en build.gradle(:app)
 
 ```
  viewBinding {
         enabled = true
     }
 ```
-###  Componentes de navegacion  <a href="https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419" target="_blank">link</a>
+2. Cómo usar la vinculación de vista en actividades
+```
+  binding = ResultProfileBinding.inflate(getLayoutInflater());
+  View view = binding.getRoot();
+  setContentView(view);
+
+```
+
+
+### Componentes de navegacion [:link:](https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419)
 ```
     def nav_version = "2.4.2"
 
@@ -80,22 +124,9 @@
 ```
 
 
-### TAREAS A HACER 
-- [ ] CREAR UI
-- [ ] CREAR UML
-- [ ] PROGRAMAR
 
-<br />
-<br />
 
-### Colaboradores
 
-| Miembros del equipo|       GITHUB        |  
-| -------------      |:-------------:      | 
-| Vazguen            | MrtVazguen          |
-| Andrés             | Fahrek              |
-<br />
-<br />
 
 ### Extras
 ([Drive link ](https://docs.google.com/document/d/1r5ElcFDWT98yS-NT08viIMSQooUFfycH5JtQUsLnOFA/edit))
