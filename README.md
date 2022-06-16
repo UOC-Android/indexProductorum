@@ -22,7 +22,7 @@
 <br /><br />
 
 ## Extenciones de Grandle
-### Instrucciones de configuración
+> Instrucciones de configuración:
 #### Vinculación de vista [:link:](https://developer.android.com/topic/libraries/view-binding?hl=es-419)
 
 1. Vinculación de vista en build.gradle(:app)
