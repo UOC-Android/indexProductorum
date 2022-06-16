@@ -22,8 +22,9 @@
 <br /><br />
 
 ## Extenciones de Grandle
-### Vinculación de vista [:link:](https://developer.android.com/topic/libraries/view-binding?hl=es-419)
-#### Instrucciones de configuración
+### Instrucciones de configuración
+#### Vinculación de vista [:link:](https://developer.android.com/topic/libraries/view-binding?hl=es-419)
+
 1. Vinculación de vista en build.gradle(:app)
 
 ```
@@ -40,7 +41,7 @@
 ```
 
 
-### Componentes de navegacion [:link:](https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419)
+#### Componentes de navegacion [:link:](https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419)
 ```
     def nav_version = "2.4.2"
 
