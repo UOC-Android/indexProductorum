@@ -37,7 +37,6 @@
 
 
 ### Herramientas utilizadas
-* SqLite (local)
 * Firestore (remoto)
   <br /><br /> 
 
