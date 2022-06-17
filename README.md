@@ -5,7 +5,7 @@
 <br />
 
 ## DESCRIPCION:
->Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotas.Permite controlar los gastos y agregar promociones.
+>Aplicación para hacer la lista de la compra individual o de forma colectiva. Permite listar productos que se irán guardando en base de datos locales y de forma remota a través de la tecnología Firebase. La app también permitirá  controlar los gastos y agregar ofertas . 
 <br />
 
 ### Características
