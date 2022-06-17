@@ -5,15 +5,15 @@
 <br />
 
 ## DESCRIPCION:
->Aplicación para hacer la lista de la compra individual o de forma colectiva. Permite listar productos que se irán guardando en base de datos locales y de forma remota a través de la tecnología Firebase. La app también permitirá  controlar los gastos y agregar ofertas . 
+>Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotas.Permite controlar los gastos y agregar promociones.
 <br />
 
 ### Características
 
-1. Autentificacion
+1. Autentificarse
 2. Crear, modificar, eliminar leer la lista de compra
-4. Compartir la lista con otros usuarios y valorar la compra, posibilidad de hacer comentarios de los artículos creados.
-4. Listado de ofertas en tiendas
+4. Compartir la lista con otros usuarios y  valorar  la compra
+4. Crear promociones de la  compra
 5. Animaciones
  
 ### TAREAS A HACER
@@ -23,15 +23,6 @@
 - [ ] TESTEAR
 
 <br />
-
-
-Project structure
-![structure](https://user-images.githubusercontent.com/33204630/174444651-a3227455-175b-4991-83b9-b3d083b21548.png)
-
-
-
-
-
 
 ### Colaboradores
 
@@ -46,12 +37,11 @@ Project structure
 
 
 ### Herramientas utilizadas
-* Fireabase  
-  - Autentification
-  - Firestore (base de datos NoSQL)
+* SqLite (local)
+* Firestore (remoto)
   <br /><br /> 
 
-## Extensiones de Gradle
+## Extenciones de Grandle
 > Instrucciones de configuración:
 
 ### Vinculación de vista [:link:](https://developer.android.com/topic/libraries/view-binding?hl=es-419)
@@ -98,7 +88,7 @@ Project structure
 
 ```
   
-> Cómo agregar un NavHostFragment a través de XML de MainActivity
+> Cómo agregar un NavHostFragment a través de XML
 ``` 
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -130,12 +120,6 @@ Project structure
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
- 
- 
- 
- 
- 
- 
  
 
 ### Extras

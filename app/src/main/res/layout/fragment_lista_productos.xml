@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".ui.ListaProductosFragment">
 
 <androidx.constraintlayout.widget.ConstraintLayout
@@ -57,5 +58,60 @@
         tools:layout_editor_absoluteX="44dp"
         tools:layout_editor_absoluteY="48dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+   tools:context=".ui.listaProducto.ListaProductosFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@drawable/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="380dp"
+            android:layout_height="451dp"
+            android:layout_marginBottom="112dp"
+            android:background="@color/cardview_light_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.483"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="536dp"
+            android:clickable="true"
+            android:src="@android:drawable/ic_input_add"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.892"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Lista productos"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="209dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="84dp"
+            android:background="@drawable/ic_launcher_background"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.876"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+>>>>>>> 2fecdc6 (basic structure)
 
 </FrameLayout>

@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
+<<<<<<< HEAD
     app:startDestination="@id/mainActivity">
 
     <androidx.fragment.app.FragmentContainerView
@@ -54,4 +55,31 @@
         android:name="com.dev.mrvazguen.indexproductorum.ui.ListaProductosFragment"
         android:label="fragment_lista_productos"
         tools:layout="@layout/fragment_lista_productos" />
+=======
+    app:startDestination="@id/mainFragment4">
+
+    <fragment
+        android:id="@+id/listaProductosFragment"
+        android:name="com.dev.mrvazguen.indexproductorum.ui.listaProducto.ListaProductosFragment"
+        android:label="fragment_lista_productos"
+        tools:layout="@layout/fragment_lista_productos" />
+    <fragment
+        android:id="@+id/mainFragment4"
+        android:name="com.dev.mrvazguen.indexproductorum.ui.home.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment4_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.dev.mrvazguen.indexproductorum.ui.login.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_listaProductosFragment"
+            app:destination="@id/listaProductosFragment" />
+    </fragment>
+>>>>>>> 2fecdc6 (basic structure)
 </navigation>
