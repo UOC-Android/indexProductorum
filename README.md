@@ -10,10 +10,10 @@
 
 ### Características
 
-1. Autentificarse
+1. Autentificacion
 2. Crear, modificar, eliminar leer la lista de compra
-4. Compartir la lista con otros usuarios y  valorar  la compra
-4. Crear promociones de la  compra
+4. Compartir la lista con otros usuarios y valorar la compra, posibilidad de hacer comentarios de los artículos creados.
+4. Listado de ofertas en tiendas
 5. Animaciones
  
 ### TAREAS A HACER
