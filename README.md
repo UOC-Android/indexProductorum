@@ -37,7 +37,9 @@
 
 
 ### Herramientas utilizadas
-* Firestore (remoto)
+* Fireabase  
+  - Autentification
+  - Firestore (base de datos NoSQL)
   <br /><br /> 
 
 ## Extenciones de Grandle
