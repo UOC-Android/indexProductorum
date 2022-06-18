@@ -3,59 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-<<<<<<< HEAD
-    app:startDestination="@id/mainActivity">
-
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/nav_host_fragment"
-        android:name="androidx.navigation.fragment.NavHostFragment"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-
-        app:defaultNavHost="true"
-        app:navGraph="@navigation/nav_graph" />
-
-    <activity
-        android:id="@+id/mainActivity"
-        android:name="com.dev.mrvazguen.indexproductorum.ui.MainActivity"
-        android:label="activity_main"
-        tools:layout="@layout/activity_main" />
-
-    <activity
-        android:id="@+id/activity_splash"
-        android:label="activity_main"
-        tools:layout="@layout/activity_splash" />
-
-    <activity
-        android:id="@+id/add_new_task"
-        android:label="add_new_task"
-        tools:layout="@layout/add_new_task" />
-
-    <activity
-        android:id="@+id/each_task"
-        android:label="each_task"
-        tools:layout="@layout/each_task" />
-
-    <activity
-        android:id="@+id/task_layout"
-        android:label="task_layout"
-        tools:layout="@layout/task_layout" />
-
-    <fragment
-        android:id="@+id/fragment_recyclerview_list"
-        android:label="fragment_recyclerview_list"
-        tools:layout="@layout/fragment_recyclerview_list" />
-
-    <fragment
-        android:id="@+id/listaProductosFragment"
-        android:name="com.dev.mrvazguen.indexproductorum.ui.ListaProductosFragment"
-        android:label="fragment_lista_productos"
-        tools:layout="@layout/fragment_lista_productos" />
-=======
     app:startDestination="@id/mainFragment4">
 
     <fragment
@@ -81,5 +28,4 @@
             android:id="@+id/action_loginFragment_to_listaProductosFragment"
             app:destination="@id/listaProductosFragment" />
     </fragment>
->>>>>>> 2fecdc6 (basic structure)
 </navigation>
