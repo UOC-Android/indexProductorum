@@ -24,6 +24,15 @@
 
 <br />
 
+
+Project structure
+![structure](https://user-images.githubusercontent.com/33204630/174444651-a3227455-175b-4991-83b9-b3d083b21548.png)
+
+
+
+
+
+
 ### Colaboradores
 
 | Miembros del equipo|       GITHUB        |  
@@ -121,6 +130,12 @@
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
+ 
+ 
+ 
+ 
+ 
+ 
  
 
 ### Extras
