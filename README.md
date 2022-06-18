@@ -42,7 +42,7 @@
   - Firestore (base de datos NoSQL)
   <br /><br /> 
 
-## Extenciones de Grandle
+## Extensiones de Grandle
 > Instrucciones de configuración:
 
 ### Vinculación de vista [:link:](https://developer.android.com/topic/libraries/view-binding?hl=es-419)
