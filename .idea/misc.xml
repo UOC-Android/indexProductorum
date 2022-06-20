@@ -18,6 +18,7 @@
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.19076923076923077" />
         <entry key="app/src/main/res/layout/add_new_task.xml" value="0.19076923076923077" />
         <entry key="app/src/main/res/layout/each_task.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_add_product.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_lista_productos.xml" value="0.33" />
         <entry key="app/src/main/res/layout/fragment_recyclerview_list.xml" value="0.25" />
         <entry key="app/src/main/res/layout/new_task.xml" value="0.25" />

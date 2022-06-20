@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".addProductFrag">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/addproduct_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_avatar"
+            android:layout_width="210dp"
+            android:layout_height="170dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_gallery" />
+
+        <ImageButton
+            android:id="@+id/btn_changeImage"
+            android:layout_width="35dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/img_avatar"
+            app:layout_constraintEnd_toEndOf="@+id/img_avatar"
+            app:srcCompat="@android:drawable/ic_menu_edit" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="89dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="20dp"
+            android:text="Nombre:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_avatar" />
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="212dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="36dp"
+            android:ems="10"
+            android:hint="Introduce nombre producto"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_name"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:text="Descripcion:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_name" />
+
+        <EditText
+            android:id="@+id/input_description"
+            android:layout_width="212dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="36dp"
+            android:ems="10"
+            android:hint="Introduce texto descriptivo"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_description"
+            tools:layout_editor_absoluteY="247dp" />
+
+        <TextView
+            android:id="@+id/txt_supermarket"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:text="Supermercado:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_description" />
+
+        <EditText
+            android:id="@+id/input_supermarket"
+            android:layout_width="212dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="36dp"
+            android:ems="10"
+            android:hint="Introduce nombre supermercado"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_supermarket"
+            tools:layout_editor_absoluteY="300dp" />
+
+        <TextView
+            android:id="@+id/txt_category"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:text="Categoria:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_supermarket" />
+
+        <EditText
+            android:id="@+id/input_caregory"
+            android:layout_width="212dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="36dp"
+            android:ems="10"
+            android:hint="Introduce categoria"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_category"
+            tools:layout_editor_absoluteY="352dp" />
+
+        <TextView
+            android:id="@+id/txt_price"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:text="Precio:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_category" />
+
+        <EditText
+            android:id="@+id/input_price"
+            android:layout_width="212dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="36dp"
+            android:ems="10"
+            android:hint="Introduce precio"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_price"
+            tools:layout_editor_absoluteY="402dp" />
+
+        <TextView
+            android:id="@+id/txt_refprice"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:text="Precio referencia:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_price" />
+
+        <EditText
+            android:id="@+id/input_refprice"
+            android:layout_width="212dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="36dp"
+            android:ems="10"
+            android:hint="Introduce precio referencia"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_refprice"
+            tools:layout_editor_absoluteY="454dp" />
+
+        <TextView
+            android:id="@+id/txt_unitref"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:text="Unidad de referencia:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_refprice" />
+
+        <EditText
+            android:id="@+id/input_unitref"
+            android:layout_width="212dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="36dp"
+            android:ems="10"
+            android:hint="Introduce unidad de referencia"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_unitref"
+            tools:layout_editor_absoluteY="505dp" />
+
+        <TextView
+            android:id="@+id/txt_insertdate"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:text="Precio referencia:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_unitref" />
+
+        <EditText
+            android:id="@+id/input_insertdate"
+            android:layout_width="212dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="36dp"
+            android:ems="10"
+            android:hint="Introduce fecha de insercion"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_insertdate"
+            tools:layout_editor_absoluteY="557dp" />
+
+        <TextView
+            android:id="@+id/txt_idproduct"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:text="Identificado producto:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_insertdate" />
+
+        <EditText
+            android:id="@+id/input_idproduct"
+            android:layout_width="212dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="36dp"
+            android:ems="10"
+            android:hint="Introduce el identificador del producto"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_idproduct"
+            tools:layout_editor_absoluteY="610dp" />
+
+        <TextView
+            android:id="@+id/txt_imgurl"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="15dp"
+            android:text="URL imagen:"
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txt_idproduct" />
+
+        <EditText
+            android:id="@+id/input_imgurl"
+            android:layout_width="212dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="36dp"
+            android:ems="10"
+            android:hint="Introduce url hacia el producto"
+            android:inputType="textPersonName"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/txt_imgurl"
+            tools:layout_editor_absoluteY="660dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
