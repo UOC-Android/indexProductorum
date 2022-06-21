@@ -39,7 +39,7 @@
 ### Herramientas utilizadas
 * Firebase
   - Firebase autentification
-  - Firestore
+  - Firestore (database)
   <br /><br /> 
 
 ## Extenciones de Grandle
