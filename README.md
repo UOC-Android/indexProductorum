@@ -121,6 +121,9 @@
 </androidx.constraintlayout.widget.ConstraintLayout>
 ```
  
+###UI design
+![pryoectoFinal](https://user-images.githubusercontent.com/33204630/174845814-7162a577-d1cb-402b-a16e-0e1e9698179d.png)
+
 
 ### Extras
 ([Drive link ](https://docs.google.com/document/d/1r5ElcFDWT98yS-NT08viIMSQooUFfycH5JtQUsLnOFA/edit))
