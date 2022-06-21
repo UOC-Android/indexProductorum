@@ -1,4 +1,4 @@
-package com.dev.mrvazguen.indexproductorum.ui.listaProducto;
+package com.dev.mrvazguen.indexproductorum.ui.productos;
 
 import android.os.Bundle;
 
@@ -12,10 +12,10 @@ import com.dev.mrvazguen.indexproductorum.R;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ListaProductosFragment#newInstance} factory method to
+ * Use the {@link AgregarProductoFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ListaProductosFragment extends Fragment {
+public class AgregarProductoFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -26,7 +26,7 @@ public class ListaProductosFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public ListaProductosFragment() {
+    public AgregarProductoFragment() {
         // Required empty public constructor
     }
 
@@ -36,11 +36,11 @@ public class ListaProductosFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment ListaProductosFragment.
+     * @return A new instance of fragment AgregarProductoFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ListaProductosFragment newInstance(String param1, String param2) {
-        ListaProductosFragment fragment = new ListaProductosFragment();
+    public static AgregarProductoFragment newInstance(String param1, String param2) {
+        AgregarProductoFragment fragment = new AgregarProductoFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -61,6 +61,6 @@ public class ListaProductosFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_lista_productos, container, false);
+        return inflater.inflate(R.layout.fragment_agregar_producto, container, false);
     }
 }
