@@ -37,8 +37,9 @@
 
 
 ### Herramientas utilizadas
-* SqLite (local)
-* Firestore (remoto)
+* Firebase
+  - Firebase autentification
+  - Firestore
   <br /><br /> 
 
 ## Extenciones de Grandle
