@@ -1,4 +1,4 @@
-package com.dev.mrvazguen.indexproductorum;
+package com.dev.mrvazguen.indexproductorum.ui.categoria;
 
 import android.os.Bundle;
 
@@ -8,13 +8,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.dev.mrvazguen.indexproductorum.R;
+
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link addProductFrag#newInstance} factory method to
+ * Use the {@link CrearCategoriasFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class addProductFrag extends Fragment
-{
+public class CrearCategoriasFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -25,7 +26,7 @@ public class addProductFrag extends Fragment
     private String mParam1;
     private String mParam2;
 
-    public addProductFrag() {
+    public CrearCategoriasFragment() {
         // Required empty public constructor
     }
 
@@ -35,11 +36,11 @@ public class addProductFrag extends Fragment
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment addProductFrag.
+     * @return A new instance of fragment CrearCategoriasFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static addProductFrag newInstance(String param1, String param2) {
-        addProductFrag fragment = new addProductFrag();
+    public static CrearCategoriasFragment newInstance(String param1, String param2) {
+        CrearCategoriasFragment fragment = new CrearCategoriasFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -60,6 +61,6 @@ public class addProductFrag extends Fragment
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_add_product, container, false);
+        return inflater.inflate(R.layout.fragment_crear_categorias, container, false);
     }
 }

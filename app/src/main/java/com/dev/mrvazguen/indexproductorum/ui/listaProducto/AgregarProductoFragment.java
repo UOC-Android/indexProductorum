@@ -1,4 +1,4 @@
-package com.dev.mrvazguen.indexproductorum;
+package com.dev.mrvazguen.indexproductorum.ui.listaProducto;
 
 import android.os.Bundle;
 
@@ -7,6 +7,8 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.dev.mrvazguen.indexproductorum.R;
 
 /**
  * A simple {@link Fragment} subclass.

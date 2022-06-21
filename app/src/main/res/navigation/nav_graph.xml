@@ -9,7 +9,20 @@
         android:id="@+id/listaProductosFragment"
         android:name="com.dev.mrvazguen.indexproductorum.ui.listaProducto.ListaProductosFragment"
         android:label="fragment_lista_productos"
-        tools:layout="@layout/fragment_lista_productos" />
+        tools:layout="@layout/fragment_lista_productos" >
+        <action
+            android:id="@+id/action_listaProductosFragment_to_descuentoProductoFragment"
+            app:destination="@id/descuentoProductoFragment" />
+        <action
+            android:id="@+id/action_listaProductosFragment_to_consultarPreciosFragment"
+            app:destination="@id/consultarPreciosFragment" />
+        <action
+            android:id="@+id/action_listaProductosFragment_to_agregarProductoFragment"
+            app:destination="@id/agregarProductoFragment" />
+        <action
+            android:id="@+id/action_listaProductosFragment_to_crearCategoriasFragment"
+            app:destination="@id/crearCategoriasFragment" />
+    </fragment>
     <fragment
         android:id="@+id/mainFragment4"
         android:name="com.dev.mrvazguen.indexproductorum.ui.home.MainFragment"
@@ -28,4 +41,33 @@
             android:id="@+id/action_loginFragment_to_listaProductosFragment"
             app:destination="@id/listaProductosFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/agregarProductoFragment"
+        android:name="com.dev.mrvazguen.indexproductorum.AgregarProductoFragment"
+        android:label="fragment_agregar_producto"
+        tools:layout="@layout/fragment_agregar_producto" />
+    <fragment
+        android:id="@+id/consultarPreciosFragment"
+        android:name="com.dev.mrvazguen.indexproductorum.ui.productos.ConsultarPreciosFragment"
+        android:label="fragment_consultar_precios"
+        tools:layout="@layout/fragment_consultar_precios" />
+    <fragment
+        android:id="@+id/crearCategoriasFragment"
+        android:name="com.dev.mrvazguen.indexproductorum.ui.categoria.CrearCategoriasFragment"
+        android:label="fragment_crear_categorias"
+        tools:layout="@layout/fragment_crear_categorias" />
+    <fragment
+        android:id="@+id/descuentoProductoFragment"
+        android:name="com.dev.mrvazguen.indexproductorum.DescuentoProductoFragment"
+        android:label="fragment_descuento_producto"
+        tools:layout="@layout/fragment_descuento_producto" >
+        <action
+            android:id="@+id/action_descuentoProductoFragment_to_crearDescuentoFragment"
+            app:destination="@id/crearDescuentoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/crearDescuentoFragment"
+        android:name="com.dev.mrvazguen.indexproductorum.CrearDescuentoFragment"
+        android:label="fragment_crear_descuento"
+        tools:layout="@layout/fragment_crear_descuento" />
 </navigation>

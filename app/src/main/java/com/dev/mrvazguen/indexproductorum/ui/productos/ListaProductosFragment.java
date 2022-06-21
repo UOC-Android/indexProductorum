@@ -1,4 +1,4 @@
-package com.dev.mrvazguen.indexproductorum;
+package com.dev.mrvazguen.indexproductorum.ui.productos;
 
 import android.os.Bundle;
 
@@ -8,12 +8,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.dev.mrvazguen.indexproductorum.R;
+
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link ConsultarPreciosFragment#newInstance} factory method to
+ * Use the {@link ListaProductosFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class ConsultarPreciosFragment extends Fragment {
+public class ListaProductosFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +26,7 @@ public class ConsultarPreciosFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public ConsultarPreciosFragment() {
+    public ListaProductosFragment() {
         // Required empty public constructor
     }
 
@@ -34,11 +36,11 @@ public class ConsultarPreciosFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment ConsultarPreciosFragment.
+     * @return A new instance of fragment ListaProductosFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static ConsultarPreciosFragment newInstance(String param1, String param2) {
-        ConsultarPreciosFragment fragment = new ConsultarPreciosFragment();
+    public static ListaProductosFragment newInstance(String param1, String param2) {
+        ListaProductosFragment fragment = new ListaProductosFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +61,6 @@ public class ConsultarPreciosFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_consultar_precios, container, false);
+        return inflater.inflate(R.layout.fragment_lista_productos, container, false);
     }
 }
