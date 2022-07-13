@@ -125,9 +125,9 @@
 ```
 
 ## UI
-![imagen](https://user-images.githubusercontent.com/33204630/175988029-d7367899-4be3-4967-aa5e-1676cf02d40b.png)
-
  
+ ![project_structure](https://user-images.githubusercontent.com/33204630/178748963-24b79c67-39bf-417b-944d-a17e55469a42.png)
+
 ## Firestore database Structure
  
 ![db_structure](https://user-images.githubusercontent.com/33204630/178019529-00fbafcc-d526-48bd-884d-9edb30a0d2bd.png)
