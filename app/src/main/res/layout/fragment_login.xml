@@ -11,60 +11,67 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_rect01"
         tools:context=".MainActivity">
 
         <!--text view for heading-->
         <TextView
-            android:id="@+id/idTVHeader"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:gravity="center_horizontal"
+            android:layout_centerHorizontal="true"
+            android:text="Bienvendio | Iniciar Sesión"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="@color/white"
+            android:id="@+id/idTVHeader" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iconIv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_circle01"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/ic_key_white"
             android:padding="5dp"
-            android:text="Welcome "
-            android:textAlignment="center"
-            android:textColor="@color/purple_700"
-            android:textSize="18sp" />
+            android:layout_centerHorizontal="true" />
 
         <!--edit text for user name-->
         <EditText
             android:id="@+id/idEdtUserName"
+            android:layout_below="@+id/iconIv"
+            android:hint="email"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_mail_gray"
+            android:drawablePadding="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idTVHeader"
-            android:textSize="25dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="50dp"
-            android:layout_marginEnd="10dp"
-            android:hint="Enter UserName"
-            android:inputType="textEmailAddress" />
+            android:layout_margin="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/shape_rect02" />
 
         <!--edit text for user password-->
         <EditText
             android:id="@+id/idEdtPassword"
+            android:layout_below="@+id/idEdtUserName"
+            android:hint="password"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_lock_gray"
+            android:drawableEnd="@drawable/ic_eye_gray"
+            android:drawablePadding="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idEdtUserName"
-            android:layout_marginStart="10dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="10dp"
-            android:textSize="25dp"
-            android:hint="Enter Password"
-            android:inputType="textPassword" />
-
-        <!--button to register our new user-->
-        <ImageView
-            android:id="@+id/show_pass_btn"
-            android:layout_width="35dp"
-            android:layout_height="30dp"
-            android:layout_alignParentRight="true"
-            android:layout_marginVertical="200dp"
-            android:layout_marginRight="25dp"
-            android:onClick="ShowHidePass"
-            android:src="@drawable/eye"
-            android:tag="show" />
-
+            android:layout_margin="5dp"
+            android:inputType="textPassword"
+            android:background="@drawable/shape_rect02" />
 
         <Button
             android:id="@+id/btnLogin"
@@ -74,16 +81,17 @@
             android:layout_marginStart="10dp"
             android:layout_marginTop="20dp"
             android:layout_marginEnd="10dp"
-            android:text="Login"
+            android:backgroundTint="@color/SeaGreen"
+            android:text="Iniciar Sesión"
             android:textAllCaps="false" />
 
         <Button
             android:id="@+id/btnRegistrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/idEdtPassword"
+            android:layout_below="@id/btnLogin"
+            android:backgroundTint="@color/SeaGreen"
             android:layout_marginStart="10dp"
-            android:layout_marginTop="83dp"
             android:layout_marginEnd="10dp"
             android:text="Registrarse"
             android:textAllCaps="false" />
@@ -96,7 +104,6 @@
             android:layout_marginTop="450dp"
             android:background="@android:color/transparent"
             android:src="@drawable/buy" />
-
 
     </RelativeLayout>
 

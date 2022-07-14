@@ -4,114 +4,133 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
     tools:context=".ui.fragment.autentification.RegistrarFragment">
 
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/background">
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:background="@drawable/shape_rect01"
+        tools:context=".MainActivity">
+
+        <!--text view for heading-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Bienvendio | Crear cuenta"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textColor="@color/white"
+            android:id="@+id/idTVHeader" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iconIv"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_circle01"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="40dp"
+            android:src="@drawable/ic_key_white"
+            android:padding="5dp"
+            android:layout_centerHorizontal="true" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageViewFoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/iconIv"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/avatar"
+            app:civ_border_color="@color/black"
+            app:civ_border_width="2dp" />
 
 
         <EditText
             android:id="@+id/editTextTextNombre"
-            android:layout_width="wrap_content"
+            android:layout_below="@+id/imageViewFoto"
+            android:hint="nombre"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_person_gray"
+            android:drawablePadding="5dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="101dp"
-            android:layout_marginTop="120dp"
-            android:layout_marginEnd="101dp"
-            android:layout_marginBottom="24dp"
-            android:ems="10"
-            android:hint="Nombre"
-            android:inputType="textPersonName"
-            android:text=""
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextCorreo"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_margin="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/shape_rect02" />
 
         <EditText
             android:id="@+id/editTextTextCorreo"
-            android:layout_width="wrap_content"
+            android:layout_below="@+id/editTextTextNombre"
+            android:hint="email"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_mail_gray"
+            android:drawablePadding="5dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="105dp"
-            android:layout_marginTop="24dp"
-            android:layout_marginEnd="96dp"
-            android:layout_marginBottom="22dp"
-            android:ems="10"
-            android:hint="Correo"
-            android:inputType="textPersonName"
-            android:text=""
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextPassword"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextNombre" />
+            android:layout_margin="5dp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/shape_rect02" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
-            android:layout_width="wrap_content"
+            android:layout_below="@+id/editTextTextCorreo"
+            android:hint="password"
+            android:padding="10dp"
+            android:drawableStart="@drawable/ic_lock_gray"
+            android:drawableEnd="@drawable/ic_eye_gray"
+            android:drawablePadding="5dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="105dp"
-            android:layout_marginTop="10dp"
-            android:layout_marginEnd="96dp"
-            android:layout_marginBottom="35dp"
-            android:ems="10"
-            android:hint="Password"
+            android:layout_margin="5dp"
             android:inputType="textPassword"
-            app:layout_constraintBottom_toTopOf="@+id/imageViewFoto"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editTextTextCorreo" />
+            android:background="@drawable/shape_rect02" />
 
         <Button
             android:id="@+id/btnRegistrarse"
-            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="176dp"
-            android:backgroundTint="@color/BlueA200"
-            android:text="Registrarse"
-            android:textColor="@color/white"
-            android:textSize="23sp"
-            app:icon="@drawable/ic_baseline_add_24"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
-            app:layout_constraintStart_toStartOf="parent" />
+            android:layout_below="@id/editTextTextPassword"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:backgroundTint="@color/SeaGreen"
+            android:text="Registrar"
+            android:textAllCaps="false" />
 
-        <ImageView
-            android:id="@+id/imageViewFoto"
-            android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/login_link"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="252dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:src="@tools:sample/avatars" />
+            android:layout_below="@id/btnRegistrarse"
+            android:text="¿Ya estás registrado? Inicia sesión"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/DarkBlue"/>
 
         <TextView
             android:id="@+id/textViewRegistrarse"
+            android:layout_below="@id/login_link"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="169dp"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="170dp"
-            android:layout_marginBottom="76dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginVertical="20dp"
             android:background="@color/dark_blue"
             android:minWidth="240dp"
             android:padding="10dp"
             android:text="Registrar usuario"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="27dp"
-            app:layout_constraintBottom_toTopOf="@+id/editTextTextNombre"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.494"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
+            android:textSize="27dp" />
 
+    </RelativeLayout>
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>
