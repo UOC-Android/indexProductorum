@@ -1,0 +1,306 @@
+@startuml
+class com.dev.mrvazguen.indexproductorum.data.model.Usuari {
+~ String nombre
+~ String email
+~ String pasword
+~ ArrayList<String> idSharedUserArticle
++ String getNombre()
++ void setNombre(String)
++ String getEmail()
++ void setEmail(String)
++ String getPasword()
++ void setPasword(String)
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.ListaArticuloFragment {
+~ ArrayList<Producto> articulos
+~ ArrayList<Usuari> usuaris
+~ NavigationView navigationView
+- RecyclerView recyclerViewArticles
+- RecyclerView recyclerViewSharedUser
+- ListaArticuloAdapter adapterArticles
+- SharedUserAdapter adapterSharedUser
++ iTaskNotification<Producto> iTaskNotification
+~ ViewDataBinding binding
+~ LinearLayoutManager linearLayoutManagerUser
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+- void fetchArticulos()
++ void onCreateOptionsMenu(Menu,MenuInflater)
++ boolean onOptionsItemSelected(MenuItem)
+}
+class com.dev.mrvazguen.indexproductorum.data.model.Producto {
+- String url
+- String supermercado
+- ArrayList<String> categoria
+- String nombre
+- String descripcion
+- double precio
+- double refPvp
+- String refUd
+- String insertarFecha
+- String pid
++ String getUrl()
++ void setUrl(String)
++ String getSupermercado()
++ void setSupermercado(String)
++ ArrayList<String> getCategoria()
++ void setCategoria(ArrayList<String>)
++ String getNombre()
++ void setNombre(String)
++ String getDescripcion()
++ void setDescripcion(String)
++ Double getPrecio()
++ void setPrecio(Double)
++ Double getRefPvp()
++ void setRefPvp(Double)
++ String getRefUd()
++ void setRefUd(String)
++ String getInsertarFecha()
++ void setInsertarFecha(String)
++ String getPid()
++ void setPid(String)
++ String toString()
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.descuentos.CrearDescuentoFragment {
+- {static} String ARG_PARAM1
+- {static} String ARG_PARAM2
+- String mParam1
+- String mParam2
++ {static} CrearDescuentoFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.SharedUserFragment {
++ {static} SharedUserFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.MostrarArticuloFragment {
++ {static} MostrarArticuloFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.SharedUserAdapter {
+- ArrayList<Usuari> usuaris
+- int nItems
++ SharedUserViewHolder onCreateViewHolder(ViewGroup,int)
++ void onBindViewHolder(SharedUserViewHolder,int)
++ int getItemCount()
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.SharedUserAdapter.SharedUserViewHolder {
+~ TextView tvUserName
+~ TextView tvPageIndicator
++ TextView getTextViewUserName()
++ TextView getTextViewUserPageIndicator()
+}
+class com.dev.mrvazguen.indexproductorum.data.repository.firestore.manager.OfertaManagerDB {
+}
+class com.dev.mrvazguen.indexproductorum.ExampleUnitTest {
++ void addition_isCorrect()
+}
+class com.dev.mrvazguen.indexproductorum.data.repository.firestore.manager.UserManagerDB {
+~ iFirestoreNotification notification
++ void addUserPermision(Usuari,String)
++ void addUser(Usuari)
++ void tablaPermisionAdd(String,String)
++ void close()
+}
+class com.dev.mrvazguen.indexproductorum.data.repository.firestore.manager.ArticuloManagerDB {
+~ FirebaseFirestore db
+~ String collectionPath
++ void append(Producto,iFirestoreNotification)
++ void readLiveDate(ArrayList<Producto>,Object)
++ void read(iTaskNotification)
++ void readRealtimeListener(iTaskNotification)
++ boolean deleteDocument(String,String)
++ void checkDbExist(iFirestoreNotification,String)
+}
+class com.dev.mrvazguen.indexproductorum.data.model.Articulo {
++ String id
+- String nombre
+- String descripcion
+- ArrayList<String> categoria
+- double precio
++ void setNombre(String)
++ String getDescripcion()
++ void setDescripcion(String)
++ ArrayList<String> getCategoria()
++ void setCategoria(ArrayList<String>)
++ double getPrecio()
++ void setPrecio(double)
++ String getNombre()
++ String toString()
+}
+interface com.dev.mrvazguen.indexproductorum.data.repository.iTaskNotification {
++ void OnSucces(List<E>)
++ void OnFail(String)
+}
+class com.dev.mrvazguen.indexproductorum.ExampleInstrumentedTest {
++ void useAppContext()
+}
+interface com.dev.mrvazguen.indexproductorum.data.repository.iFirestoreNotification {
++ void OnSuccess()
++ void OnFailure()
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.autentification.RegistrarFragment {
+~ FragmentRegistrarBinding binding
+- {static} String ARG_CORREO
+~ Usuari user
+- String mParam1
+- String mParam2
+~ FirebaseAuth mAuth
++ {static} RegistrarFragment newInstance(String,String,String)
++ void onCreate(Bundle)
++ void onStart()
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+- {static} boolean isValidat(Usuari)
+- void donarAlta(Usuari,View)
++ void onStop()
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.descuentos.DescuentoProductoFragment {
+- {static} String ARG_PARAM1
+- {static} String ARG_PARAM2
+- String mParam1
+- String mParam2
++ {static} DescuentoProductoFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+abstract class com.dev.mrvazguen.indexproductorum.data.repository.firestore.FirebaseDao {
+# {static} DatabaseReference dbReference
+# String tableName
++ {abstract}void append(E,iFirestoreNotification)
++ {abstract}void readLiveDate(ArrayList<E>,Object)
++ {abstract}void read(iTaskNotification)
++ {abstract}void readRealtimeListener(iTaskNotification)
++ {abstract}boolean deleteDocument(String,String)
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.AgregarArticuloFragment {
+- {static} String TAG
+~ Spinner spinner
+~ ArrayAdapter<CharSequence> adapterCategoria
+~ FragmentAgregarArticuloBinding binding
+~ ArticuloManagerDB firestorePersistence
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+- boolean validarDatos(Producto)
+- void closefragment()
++ TranslateAnimation shakeError()
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.ListaArticuloAdapter {
+- Producto articulo
+- ArrayList<Producto> articulos
+- int nItems
+- String nomUsuariActual
+- FirebaseFirestore db
++ LlistarArticuloViewHolder onCreateViewHolder(ViewGroup,int)
++ void onBindViewHolder(LlistarArticuloViewHolder,int)
++ int getItemCount()
++ void deteleItem(int)
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.ListaArticuloAdapter.LlistarArticuloViewHolder {
+~ TextView title
++ TextView getTextView()
+}
+interface com.dev.mrvazguen.indexproductorum.utils.ApiInterface {
+~ Call<List<Producto>> getProducts()
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.home.MainFragment {
+- FragmentMainBinding binding
++ {static} MainFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.dev.mrvazguen.indexproductorum.utils.RetrofitCli {
+- {static} String BASE_URL
+- {static} Retrofit retrofit
++ {static} ApiInterface getRetrofitClient()
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.categoria.CrearCategoriasFragment {
+- {static} String ARG_PARAM1
+- {static} String ARG_PARAM2
+- String mParam1
+- String mParam2
++ {static} CrearCategoriasFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.autentification.LoginFragment {
+~ FragmentLoginBinding binding
++ {static} LoginFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
++ void loginUser(View)
++ void onDestroy()
++ boolean validarFieldLogin(String,String)
+}
+class com.dev.mrvazguen.indexproductorum.utils.GlobarArgs {
++ {static} String DB_SHOPING
++ {static} String USER_ID
++ {static} String COLLECTION_SHOPING_LIST
++ {static} String DOCUMENT_ARTICLE
++ {static} String LISTA_COMPRA_ABSOLUT_PATH
++ {static} String DB_USER
++ {static} String CORREO_USUARIO
++ {static} String DB_USERS
++ {static} String NOM_USUARI_ACTUAL
++ {static} String DB_DEALS
++ {static} String LISTA_OFERTA_ABSOLUT_PATH
+}
+enum com.dev.mrvazguen.indexproductorum.utils.articuloEnum {
++  id
++  nombre
++  descripcion
++  categoria
++  precio
+}
+enum com.dev.mrvazguen.indexproductorum.utils.userEnum {
+}
+class com.dev.mrvazguen.indexproductorum.data.repository.FirebaseConection {
+- {static} FirebaseAuth mAuth
+- {static} FirebaseUser firebaseUser
+- String nombreProyecto
++ {static} void crearConection()
++ {static} boolean closeConection()
++ {static} FirebaseUser getUser()
++ {static} void settUser(FirebaseUser)
++ {static} FirebaseAuth getmAuth()
+}
+class com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.ConsultarPreciosFragment {
+- {static} String ARG_PARAM1
+- {static} String ARG_PARAM2
+- String mParam1
+- String mParam2
++ {static} ConsultarPreciosFragment newInstance(String,String)
++ void onCreate(Bundle)
++ View onCreateView(LayoutInflater,ViewGroup,Bundle)
+}
+class com.dev.mrvazguen.indexproductorum.ui.MainActivity {
+- {static} int SPLASH_TIME_OUT
+~ Animation topAnim
+~ ImageView imageView
+~ Button textView
+# void onCreate(Bundle)
+}
+
+
+androidx.fragment.app.Fragment <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.ListaArticuloFragment
+androidx.fragment.app.Fragment <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.descuentos.CrearDescuentoFragment
+androidx.fragment.app.Fragment <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.SharedUserFragment
+androidx.fragment.app.Fragment <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.MostrarArticuloFragment
+com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.Adapter <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.SharedUserAdapter
+com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.SharedUserAdapter +.. com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.SharedUserAdapter.SharedUserViewHolder
+com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.ViewHolder <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.SharedUserAdapter.SharedUserViewHolder
+com.dev.mrvazguen.indexproductorum.data.repository.firestore.FirebaseDao <|-- com.dev.mrvazguen.indexproductorum.data.repository.firestore.manager.ArticuloManagerDB
+androidx.fragment.app.Fragment <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.autentification.RegistrarFragment
+androidx.fragment.app.Fragment <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.descuentos.DescuentoProductoFragment
+androidx.fragment.app.Fragment <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.AgregarArticuloFragment
+com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.Adapter <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.ListaArticuloAdapter
+com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.ListaArticuloAdapter +.. com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.ListaArticuloAdapter.LlistarArticuloViewHolder
+com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.ViewHolder <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.adapter.ListaArticuloAdapter.LlistarArticuloViewHolder
+androidx.fragment.app.Fragment <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.home.MainFragment
+androidx.fragment.app.Fragment <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.categoria.CrearCategoriasFragment
+androidx.fragment.app.Fragment <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.autentification.LoginFragment
+androidx.fragment.app.Fragment <|-- com.dev.mrvazguen.indexproductorum.ui.fragment.articulo.ConsultarPreciosFragment
+androidx.appcompat.app.AppCompatActivity <|-- com.dev.mrvazguen.indexproductorum.ui.MainActivity
+@enduml

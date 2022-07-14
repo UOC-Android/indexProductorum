@@ -5,7 +5,7 @@
 <br />
 
 ## DESCRIPCION:
->Aplicacione para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotas.Permite controlar los gastos y agregar promociones.
+>Aplicacion para hacer la lista de compra. Permite listar de productos que se iran guardando en base de datos locales y remotas.Permite controlar los gastos y agregar promociones.
 <br />
 
 ### Características
@@ -18,7 +18,7 @@
 
 ### TAREAS A HACER
 - [X] CREAR UI
-- [ ] CREAR UML
+- [X] CREAR UML
 - [ ] CODIFICAR
 - [ ] TESTEAR
 
@@ -33,16 +33,15 @@
 <br />
 <br />
 
-
-
-
 ### Herramientas utilizadas
 * Firebase
   - Firestore (Database)
   - Autentification
     <br /><br />
 
-## Extenciones de Grandle
+### Diagrama UML
+
+## Extension de Gradle
 > Instrucciones de configuración:
 
 ### Navigation drawer (menu barra lateral)[:link:](https://material.io/components/navigation-drawer)
@@ -63,7 +62,6 @@
   setContentView(view);
 
 ```
-
 
 ### Componentes de navegacion [:link:](https://developer.android.google.cn/guide/navigation/navigation-getting-started?hl=es-419)
 ```
@@ -131,6 +129,9 @@
 ## Firestore database Structure
  
 ![db_structure](https://user-images.githubusercontent.com/33204630/178019529-00fbafcc-d526-48bd-884d-9edb30a0d2bd.png)
+
+## Estructura API Rest
+
 
 
 ### Extras
