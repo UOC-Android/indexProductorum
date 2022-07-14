@@ -86,22 +86,22 @@ FragmentLoginBinding binding;
             }
         });
 
-        binding.showPassBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                if(v.getTag()=="hiden")
-                {//Show Password
-                     binding.idEdtPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
-                     v.setTag("show");
-                }
-                else{
-                //Hide Password
-                    binding.idEdtPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
-                    v.setTag("hiden");
-                }
-            }
-        });
+//        binding..setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//
+//                if(v.getTag()=="hiden")
+//                {//Show Password
+//                     binding.idEdtPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
+//                     v.setTag("show");
+//                }
+//                else{
+//                //Hide Password
+//                    binding.idEdtPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
+//                    v.setTag("hiden");
+//                }
+//            }
+//        });
 
 
         return binding.getRoot();
